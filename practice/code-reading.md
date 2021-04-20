@@ -16,6 +16,9 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+The x is changed inside the function therefore the log inside the function outputs 2.
+Because the x was declared inside a function it has no effect on the x outside therefore the output on line 7 is 1;
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +37,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+The f1() console.log would //
 
 ## Question 3
 
